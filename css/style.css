@@ -1,0 +1,115 @@
+* {
+    font-size: 16px;
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Trocchi'; serif;
+    margin: 5%;
+    text-align: center;   
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Trocchi'; serif;
+}
+
+.main-section {
+    margin-bottom: 2%;
+    padding: 3%;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+span {
+    font-size: 2em;
+    color: white;
+    padding-right: 2%;
+}
+
+#step-one {
+    background-color: #00DFE4;
+    color: black;
+}
+
+#step-two {
+    background-color: #ef6d75;
+}
+
+#step-three {
+    background-color: #f7ab69;
+}
+
+#step-four {
+    background-color: #ffe85c;
+}
+
+#step-five {
+    background-color: #da70d6;
+}
+
+#step-six {
+    background-color: #80e4a0;
+}
+
+#step-seven {
+    background-color: #ef6d75;
+    color: black;
+}
+
+#step-eight {
+    background-color: #00DFE4;
+    color: black;
+}
+.section-link {
+    display: flex;
+    color: #0e0e52;
+    text-decoration: none;
+    justify-content: center;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: darkorchid;
+    font-family: 'PT Sans'; sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    letter-spacing: .1em;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        font-family: 'Trocchi'; serif;
+    }
+
+    .main-section {
+        width: 35%;
+    }
+
+    footer {
+        letter-spacing: .5em;
+    }
+}
+
+@media (min-width: 1200px) {
+    main {
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        font-family: 'Trocchi'; serif;
+    }
+
+    .main-section {
+        width: 20%;
+    }
+
+}
